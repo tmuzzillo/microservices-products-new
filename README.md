@@ -30,5 +30,9 @@ To do that we are going to use Netflix Eureka integration.
 <img width="768" alt="Discovery service apttern" src="https://user-images.githubusercontent.com/71854664/230744562-132a94fb-eda5-4704-ad02-eef45416dcb4.png">
 
 ### Communication in our cloud environment implementing discovery-server pattern
+We register our Discovery Service as a "server" and ours other services as "clients". Each client can have a registry of the address of the service that we want to reach in case of the Discovery Service were down.
+
 <img width="454" alt="communication discovery service" src="https://user-images.githubusercontent.com/71854664/230744601-066cb93c-61f3-49e4-b37f-352015fcac6b.png">
+
+![client registry](https://user-images.githubusercontent.com/71854664/230748134-c2e946b4-85c8-41b3-bdaf-96095da10235.png)
 
