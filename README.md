@@ -36,3 +36,8 @@ We register our Discovery Service as a "server" and ours other services as "clie
 
 ![client registry](https://user-images.githubusercontent.com/71854664/230748134-c2e946b4-85c8-41b3-bdaf-96095da10235.png)
 
+## API Gateway
+Gateway: Responsable of route the requests from users to the correspond services
+![API gateway](https://user-images.githubusercontent.com/71854664/231558700-8e914125-f23c-46e9-8004-664e81bff334.png)
+
+
